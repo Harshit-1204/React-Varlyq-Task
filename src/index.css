@@ -1,13 +1,111 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+.app{
+  background-color: rgb(184, 50, 50);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.vigilant{
+  margin: 0 15% 0 2% ;
+}
+.search-box{
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  padding: 5px;
+  width: 20%;
+}
+.search-icon{
+  color: grey;
+}
+.menu-icon{
+  color:white;
+}
+#demo-simple-select-label{
+  color: #fff;
+  /* margin: auto; */
+}
+.dropdown{
+  width: 100px;
+}
+
+.english{
+  position: fixed; 
+}
+
+.language-icon{
+  width:100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  right: 100px;
+}
+.account-circle{
+  position: fixed;
+  right: 50px;
+  margin-top: 13px;
+}
+
+.full-page{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dash-board{
+  width:24%;
+  height:100vh;
+  padding: 20px 10px 0;
+  border-right: 3px solid grey;
+}
+.main-content{
+  width:74%;
+  height:100vh;
+}
+
+.dash-board > h3{
+  padding:10px ;
+  border-bottom:1px solid grey ;
+  font-size: 15px;
+}
+.dash-board >h3 > i{
+  padding-right: 10px;
+}
+
+.main-content{
+  padding: 28px 12px 0;
+}
+.middle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 25px;
+  margin-top: 10px;
+}
+
+.select{
+  width: 150px;
+  height: 100% !important
+}
+#demo-simple-select-outlined-label{
+  font-size: smaller;
+  padding: 0px !important;
+}
+#demo-simple-select-outlined{
+  padding: 0px !important;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
